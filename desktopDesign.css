@@ -1,0 +1,95 @@
+/* Desktop Design */
+
+@media (min-width: 768px) {
+
+    body {
+        max-width: 2100px;
+
+    }
+
+    .desktop-body {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header {
+        width: 1440px;
+        height: 663px;
+        background-color: var(--color-gray);
+        margin: 0px;
+
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+
+    .navbar {
+        width: 1177px;
+        height: 41px;
+        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 131px;
+        margin-top: 15px;
+    }
+
+    .foodies {
+
+        width: 120px;
+        height: 39px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        color: var(--color-green);
+
+    }
+
+
+    .ul-items li {
+        display: inline;
+        width: 45px;
+        height: 19px;
+        margin-left: 16px;
+        font-weight: 400;
+        /* font-style: Regular; */
+        font-size: 16px;
+
+
+
+
+    }
+
+    .ul-items :first-child {
+        color: var(--color-green);
+    }
+
+    .main-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 60px 10%;
+        gap: 40px;
+
+    }
+
+    .rating-badge {
+        top: 320px;
+        left: 850px;
+
+    }
+    .review-badge{
+        top: 250px;
+        right: 510px;
+    }
+
+
+    .container{
+        
+    }
+
+
+}

@@ -1,0 +1,54 @@
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+:root {
+    --color-white: #FFFFFF;
+    --color-darkgray: #a8a8a8;
+    --color-gray: #F3FCF7;
+    --color-deepgray: #F0F1EC;
+    --color-deepwhite: #F0EDE2;
+    --color-white-border: #76767540;
+    --color-white: #FFFFFF;
+    --color-green: #06C167;
+    --color-black: #1D1D1F;
+}
+
+
+
+
+
+/* same Design */
+
+.rating-badge {
+    width: 230px;
+    height: 53px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.review-badge {
+    width: 230px;
+    height: 53px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
