@@ -1,4 +1,4 @@
-# Assignment :  কত নাম্বার এসাইনমেন্ট তা লিখুন
-### Name :  আপনার নাম লিখুন
-### Email: (আপনার জিমেইল এড্রেস লিখুন যে যে জিমেইল দিয়ে আপনি কোর্স purchase করেছেন)
-[ Live url](অ্যাসাইনমেন্টের লাইভ url লিংক দিন)
+# Assignment :  Assignment -02 [ HTML + CSS ]
+### Name :  Md. Abdullah Amin
+### Email: abdullahamin8888@gmail.com
+[ Live url](asssigement-2-001.netlify.app)
