@@ -38,7 +38,7 @@
 
     }
 
-
+    /* header Design */
     .header {
         width: 1440px;
         height: 663px;
@@ -75,8 +75,6 @@
 
     }
 
-
-
     .navbar {
         width: 1177px;
         height: 41px;
@@ -98,7 +96,6 @@
         color: var(--color-green);
 
     }
-
 
     .ul-items li {
         display: inline;
@@ -212,6 +209,7 @@
         margin-left: 10px;
     }
 
+    /* middle section  brand-logos design */
     .brand-logos {
         width: 600px;
         height: 50px;
@@ -273,6 +271,8 @@
         margin: 0px;
     }
 
+      /* <!-- -- vagis section Design -- --> */
+
     #vegis-section {
         width: 1162px;
         height: 608px;
@@ -281,8 +281,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-
-
 
     .item-section {}
 
@@ -304,14 +302,12 @@
     .infoPolcadot {
         position: relative;
         top: 200px;
-
-
-
     }
 
     .info {}
 
     .info p {
+       
         position: absolute;
         width: 82px;
         height: 18px;
@@ -321,8 +317,13 @@
         font-size: 15px;
 
     }
+    #OP{
+        margin-top: 40px;
+    }
 
     .info h2 {
+     
+        
         position: absolute;
         width: 537px;
         height: 146px;
@@ -350,12 +351,19 @@
 
     }
 
+
+      /* <!-- -- vagis section Design -- --> */
     #juiceSection {
         width: 1230px;
         height: 670px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+
+    }
+    #juiceimg img {
+        margin-left: 94px;
+        padding: 0px;
 
     }
 
@@ -393,13 +401,11 @@
 
     }
 
-
+   /* <!-- -- Features Section layout --  --> */
     #infoof {
-        margin-top: 30px;
+      margin-top: 130px;
         width: 1170px;
         height: 766px;
-
-
     }
 
     #Ourfeatures {
@@ -411,13 +417,11 @@
 
     #Ourfeatures p {
         width: 150px;
-
+        margin-top: 70px;
     }
 
     .FeaturesSection {
         margin-top: 200px;
-
-
     }
 
 
@@ -432,6 +436,7 @@
 
 
     .infocard h2 {
+       
         width: 228px;
         height: 55px;
         font-weight: 500;
@@ -455,7 +460,8 @@
 
     .cardImg {
         width: 292px;
-        height: 292px;
+        height: 296px;
+        
     }
 
 
@@ -487,14 +493,6 @@
         flex-direction: row-reverse;
 
     }
-
-
-
-
-    #infoof {
-        margin-top: 160px;
-    }
-
 
     .ProductSection {
         margin-top: 200px;
