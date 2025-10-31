@@ -1,5 +1,30 @@
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+:root {
+    --color-white: #FFFFFF;
+    --color-darkgray: #a8a8a8;
+    --color-gray: #F3FCF7;
+    --color-deepgray: #F0F1EC;
+    --color-deepwhite: #F0EDE2;
+    --color-white-border: #76767540;
+    --color-white: #FFFFFF;
+    --color-green: #06C167;
+    --color-black: #1D1D1F;
+}
+
+
+
 /* Mobile first design */
 @media (max-width: 600px) {
+    .desktop-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 
     .body {
@@ -8,7 +33,6 @@
         margin: 0px;
         min-width: 375px;
         max-width: 600px;
-
     }
 
     .header {
@@ -26,7 +50,6 @@
         height: 40px;
         padding-top: 30px;
         justify-content: space-between;
-
     }
 
     .foodies {
@@ -37,8 +60,6 @@
         font-style: Medium;
         font-size: 32px;
         color: var(--color-green);
-        ;
-
     }
 
     .menuIcons {
@@ -53,7 +74,6 @@
     .main-body {}
 
     .main-body h1 {
-
         width: 320px;
         height: 186px;
         font-weight: 600;
@@ -62,8 +82,6 @@
         line-height: 100%;
         text-align: center;
         margin-bottom: 0px;
-
-
     }
 
     .main-body p {
@@ -73,7 +91,6 @@
         line-height: 159%;
         text-align: center;
         margin-top: 0px;
-
     }
 
     .getbutton {
@@ -89,7 +106,6 @@
         justify-content: center;
         gap: 20px;
         color: var(--color-white);
-
     }
 
     /* Image section  */
@@ -102,34 +118,52 @@
         height: 469px;
         align-items: center;
         justify-content: center;
-
-
     }
 
     .rating-badge img {
         width: 99px;
         height: 14px;
-
     }
 
 
     .rating-badge {
         bottom: 70px;
+        width: 230px;
+        height: 53px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        background-color: var(--color-white);
+        border-radius: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
     }
 
     .review-badge {
         bottom: 5px;
+        width: 230px;
+        height: 53px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        background-color: var(--color-white);
+        border-radius: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
     }
 
     .Polcadot {
-
         width: 174px;
         height: 174px;
         bottom: -13px;
-        left: 221px;
+        left: 185px;
         position: absolute;
-
-
     }
 
 
@@ -137,7 +171,6 @@
     /* middle section  brand-logos design */
 
     .brand-logos {
-
         margin-top: 165px;
         margin-left: 27px;
         width: 319px;
@@ -147,7 +180,6 @@
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
-
     }
 
     .logos {
@@ -160,8 +192,6 @@
         height: 28px;
     }
 
-
-
     .services {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
@@ -171,7 +201,6 @@
         height: 497px;
         text-align: center;
         border-block: solid 2px var(--color-white-border);
-
     }
 
     .service {
@@ -189,9 +218,6 @@
         font-weight: 400;
         margin-bottom: 0px;
         font-size: 18px;
-
-
-
     }
 
     .service p {
@@ -214,8 +240,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-
     }
 
     .imgdesign {
@@ -244,7 +268,6 @@
     }
 
     .info p {
-
         width: 100px;
         height: 18px;
         position: relative;
@@ -285,8 +308,6 @@
 
         width: 25px;
         height: 19px;
-
-
     }
 
     .textinfo li {
@@ -299,13 +320,6 @@
         gap: 10px;
         text-align: center;
 
-
-
-
-
-
-
-
     }
 
 
@@ -314,6 +328,10 @@
 
     #juiceSection {
         margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     #juiceimg {
@@ -327,6 +345,14 @@
         width: 277px;
         height: 489px;
 
+    }
+
+    .numinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
 
 
@@ -354,6 +380,11 @@
 
     }
 
+    #numinfo :last-child {
+        margin-top: 40px;
+
+    }
+
 
     /* <!-- -- Features Section layout --  --> */
 
@@ -363,11 +394,25 @@
         max-width: 600px;
         min-width: 300px;
         margin-left: auto;
-        display: grid;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-items: center;
-        justify-content: center;
+
+
         /* grid-template-columns: repeat(auto-fit, minmax(320px, 4fr)); */
+    }
+
+    #mixf-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fruits-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .infocard {
@@ -447,16 +492,12 @@
         flex-direction: column;
         align-items: center;
         border: solid 2px var(--color-white-border);
-
-
-
     }
 
-    .cardImg {
+    .cardImg1 {
         width: 190PX;
         height: 190PX;
         margin-top: 30PX;
-
     }
 
     .cardstar {
@@ -529,6 +570,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top:100px ;
 
 
     }
@@ -551,7 +593,7 @@
     #FooterSection {
         margin-top: 70px;
         width: 375px;
-        height: 1200px;
+        height: 1000px;
 
 
     }

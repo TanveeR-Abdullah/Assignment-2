@@ -1,15 +1,41 @@
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
 /* Desktop Design */
+:root {
+    --color-white: #FFFFFF;
+    --color-darkgray: #a8a8a8;
+    --color-gray: #F3FCF7;
+    --color-deepgray: #F0F1EC;
+    --color-deepwhite: #F0EDE2;
+    --color-white-border: #76767540;
+    --color-white: #FFFFFF;
+    --color-green: #06C167;
+    --color-black: #1D1D1F;
+}
 
 @media (min-width: 768px) {
 
     body {
         max-width: 2100px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
     .desktop-body {
+        width: 1440px;
+        flex-direction: column;
         display: flex;
         justify-content: center;
+        align-items: center;
+
+
+
     }
 
 
@@ -21,9 +47,34 @@
 
     }
 
+    #fcard {
+        width: 1440;
+        height: 798;
+        border-width: 1px;
+
+
+    }
+
     .navbar img {
         display: none;
     }
+
+    .getbutton {
+        width: 320px;
+        height: 68px;
+        background-color: var(--color-green);
+        border: none;
+        font-weight: 400;
+        margin-top: 40px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: var(--color-white);
+
+    }
+
 
 
     .navbar {
@@ -34,7 +85,7 @@
         align-items: center;
         justify-content: space-between;
         margin-left: 131px;
-        margin-top: 15px;
+        padding-top: 20px;
     }
 
     .foodies {
@@ -55,7 +106,7 @@
         height: 19px;
         margin-left: 16px;
         font-weight: 400;
-        /* font-style: Regular; */
+
         font-size: 16px;
 
 
@@ -77,19 +128,615 @@
     }
 
     .rating-badge {
-        top: 320px;
-        left: 850px;
+        top: 420px;
+        left: 900px;
+        width: 230px;
+        height: 53px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        background-color: var(--color-white);
+        border-radius: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
 
     }
-    .review-badge{
-        top: 250px;
-        right: 510px;
+
+    .review-badge {
+        top: 270px;
+        right: 370px;
+        width: 230px;
+        height: 53px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        background-color: var(--color-white);
+        border-radius: 30px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .human {
+        width: 468px;
+        height: 634px;
+
+
+
+    }
+
+    .Polcadot {
+        position: absolute;
+        top: 580px;
+        right: 450px;
+    }
+
+    .main-body h1 {
+        width: 533px;
+        height: 182px;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 75px;
+        margin-top: -200px;
+
+    }
+
+    .main-body button {
+        width: 200px;
+        height: 68px;
+        background-color: var(--color-green);
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        color: var(--color-white);
+        border: none;
+    }
+
+    .main-body p {
+        width: 533px;
+        height: 46px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+
+
     }
 
 
-    .container{
-        
+    .getbutton img {
+        margin-left: 10px;
     }
+
+    .brand-logos {
+        width: 600px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .brand-logos img {
+        width: 155px;
+        height: 35px;
+        margin-left: 40px;
+
+    }
+
+
+
+    .services {
+        width: 1170px;
+        height: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 70px;
+        border-block: solid 2px var(--color-white-border);
+
+
+
+
+    }
+
+    .service {
+        width: 240px;
+        height: 70px;
+        display: flex;
+        gap: 15px;
+
+
+
+    }
+
+    .service h3 {
+        width: 150px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 7px;
+
+
+    }
+
+    .service p {
+        width: 150px;
+        height: 17px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    #vegis-section {
+        width: 1162px;
+        height: 608px;
+        margin: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+
+
+    .item-section {}
+
+    .imgdesign {
+        width: 541px;
+        height: 608px;
+        background-color: #F3FAFB;
+        border: none;
+
+    }
+
+    .imgdesign img {
+        width: 445px;
+        height: 513px;
+        padding: 0px 45px;
+
+    }
+
+    .infoPolcadot {
+        position: relative;
+        top: 200px;
+
+
+
+    }
+
+    .info {}
+
+    .info p {
+        position: absolute;
+        width: 82px;
+        height: 18px;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+
+    }
+
+    .info h2 {
+        position: absolute;
+        width: 537px;
+        height: 146px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 60px;
+
+    }
+
+    .textinfo {
+        margin-top: 250px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .textinfo li {
+        list-style: none;
+        width: 260px;
+        height: 19px;
+        display: flex;
+        gap: 10px;
+
+
+    }
+
+    #juiceSection {
+        width: 1230px;
+        height: 670px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+    }
+
+
+    .numinfo {
+        width: 570px;
+        height: 146px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 250px;
+    }
+
+    .numhading {
+        width: 150px;
+        height: 82px;
+        text-align: center;
+    }
+
+    .numhading h1 {
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: var(--color-green);
+
+    }
+
+    .numhading p {
+        margin: 0px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 15px;
+        color: var(--color-black);
+
+    }
+
+
+    #infoof {
+        margin-top: 30px;
+        width: 1170px;
+        height: 766px;
+
+
+    }
+
+    #Ourfeatures {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #Ourfeatures p {
+        width: 150px;
+
+    }
+
+    .FeaturesSection {
+        margin-top: 200px;
+
+
+    }
+
+
+    .infocard {
+        width: 292px;
+        height: 292px;
+        background-color: var(--color-deepgray);
+        display: grid;
+        border: solid 2px var(--color-green);
+
+    }
+
+
+    .infocard h2 {
+        width: 228px;
+        height: 55px;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 32px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+
+
+    }
+
+    .infocard p {
+        width: 190px;
+        height: 25px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    .cardImg {
+        width: 292px;
+        height: 292px;
+    }
+
+
+    .disbutton {
+        width: 148px;
+        height: 42px;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 15px;
+        margin-left: 40px;
+        border: none;
+        background-color: var(--color-deepwhite);
+        color: var(--color-green);
+    }
+
+    .disbutton img {
+        margin-left: 10px;
+    }
+
+    #mixf-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 3fr));
+
+    }
+
+    #fruits-info {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+
+
+
+    #infoof {
+        margin-top: 160px;
+    }
+
+
+    .ProductSection {
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 4fr));
+        gap: 20px;
+    }
+
+    .productCard {
+        width: 270px;
+        height: 441px;
+        background-color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 2px var(--color-white-border);
+
+    }
+
+    .cardImg1 {
+        width: 190px;
+        height: 190px;
+        margin-top: 30px;
+
+    }
+
+    .cardstar {
+        width: 99px;
+        height: 14px;
+        margin-top: 10px;
+
+    }
+
+    .productCard h3 {
+        width: 174px;
+        height: 24px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 20px;
+
+    }
+
+    .buyButton {
+        width: 177px;
+        height: 57px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        border: solid 2px var(--color-green);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+        color: var(--color-green);
+
+    }
+
+    .buyButton img {
+
+        width: 22px;
+        height: 11px;
+
+    }
+
+    #lt {
+        text-decoration: line-through;
+        color: var(--color-darkgray);
+        width: 39px;
+        height: 24px;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 20px;
+    }
+
+    #Pt {
+        color: var(--color-green);
+        width: 39px;
+        height: 24px;
+        font-size: 20px;
+        margin-left: 5px;
+
+    }
+
+    .info h2 {
+        width: 640px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .info p {
+        width: 100px;
+        margin: 0px;
+
+    }
+
+    #Veggie1 {
+        display: none;
+    }
+
+    #green {
+        border-color: var(--color-green);
+    }
+
+
+    #bottomImage {
+        background-image: url("./images/Rectangle 9.png");
+        width: 1170px;
+        height: 459px;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #veggieFood {
+        width: 800px;
+        height: 146px;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 60px;
+        text-align: center;
+        color: var(--color-white);
+
+    }
+
+
+
+    #FooterSection {
+        margin-top: 150px;
+        width: 1440px;
+        height: 433px;
+
+
+    }
+
+    .footerDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .media {
+        width: 284px;
+        height: 208px;
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .media img {
+        width: 120px;
+        height: 39px;
+
+
+    }
+
+    .media :last-child {
+
+        width: 100px;
+        height: 20px;
+
+
+    }
+
+    .getintouch {
+        width: 338px;
+        height: 195px;
+
+
+    }
+
+    #twobtn {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    #twobtn :last-child {
+        width: 118px;
+        height: 50px;
+
+    }
+
+    #twobtn :first-child {
+        width: 205px;
+        height: 50px;
+        background-color: var(--color-deepgray);
+        color: var(--color-black);
+        opacity: 50%;
+    }
+       .about-ccompany {
+        width: 107px;
+        height: 194px;
+        text-align: center;
+    }
+
+    .about-ccompany h2 {
+        width: 107;
+        height: 29;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 24px;
+
+    }
+
+    .about-ccompany p {
+        margin-top: 20px;
+        width: 110px;
+        height: 19px;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
